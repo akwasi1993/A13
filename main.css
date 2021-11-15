@@ -1,0 +1,201 @@
+html {
+    background-color: white;
+    width: 1000px;
+    padding-right: 3em;
+}
+html h2{
+    color: #931420;
+}
+/* the styles for the elements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: #fffded;
+    width: 800px;
+    border: 3px solid #931420;
+    margin-left: 300px;
+}
+.element{
+}
+/* the nav element */
+
+#nav_menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+#nav_menu ul li{
+    float: left;
+
+}
+#nav_menu  li a{
+    color: white;
+    text-decoration: none;
+    width: 160px;
+
+}
+#nav_menu ul li {
+    background-color: #800000;
+    text-align: center;
+    width: 160px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: table-header-group;
+    font-weight: bold;
+}
+
+#current a{
+    color: yellow;
+}
+
+#nav_menu ul ul li ul {
+    position: relative;
+    display: none;
+}
+#nav_menu ul li ul{
+    margin:0;
+    padding:0;
+    display:none;
+    position: relative;
+    left: 0px;
+    z-index: 99;
+    top:50px;}
+
+#nav_menu ul li:hover ul{
+    display: block;
+
+}
+
+#nav_menu > ul::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+
+#dropdown-content{
+    position: absolute;
+    display: inline;
+
+}
+
+section{
+    width: 525px;
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+section nav h2{
+    border-top:3px solid #931420;
+}
+section img{
+    float: right;
+    /*margin-top: 20px;*/
+
+}
+section aside h2{
+    border-top: 3px solid #931420;
+
+
+}
+article h2{
+    color:  #931420;
+}
+article  {
+    line-height: 24px;
+
+
+
+}
+
+main{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/* the styles for the aside*/
+aside div{
+    width: 215px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    line-height: 15px;
+
+}
+
+aside img{
+    /*padding-bottom: .25em;*/
+}
+
+
+
+
+a:hover {font-style: italic;}
+
+
+
+/* the styles for the header */
+header{
+    padding: 1.5em 2em 0 0 ;
+    background: -webkit-linear-gradient( 30deg, #f6bb73 0%, #f6bb73 30%,
+    white 50%, #f6bb73 80%, #f6bb73 100% );
+    border-bottom: 3px solid #931420;
+}
+
+
+header p{
+    padding: 10em;
+}
+
+
+header h3 {
+    text-shadow: 2px 2px #932420;
+    font-size: 105%;
+    padding-bottom: 30px;
+    margin:0;
+}
+
+header h1 {
+    color: #931420;
+    padding: 0;
+    margin: 0;
+}
+header img {
+    float: left;
+    padding: 0 30px 0;
+
+
+}
+
+
+
+
+/* paragraph section*/
+
+blockquote{
+    font-style: italic;
+    padding-right: 2em;
+    padding-left: 2em;
+
+}
+
+head img {
+    position: absolute;
+    top:30px
+
+
+}
+/* the styles for the footer */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #931420;
+    padding: .5em;
+    clear: right;
+    /*position: absolute;*/
+}
